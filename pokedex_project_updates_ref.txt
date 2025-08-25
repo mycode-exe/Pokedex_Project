@@ -1,0 +1,12 @@
+Update Notes (taken from notes section at bottom of code):
+    
+    (v0.1.0);
+        - Initial 'Pokemon' class created, along with the first 6 Pokemon from the Pokedex.
+        - Issue arrising from wanting to call on objects to interconnect with others, but before they have been created by the database. 
+        - E.g. - Listing "Ivysaur" in the "Bulbasaur" object's instance, as it does not exist when the bulbasaur object is created/ran. Will need to address this
+
+    (v0.1.1);
+        - TBW
+        -
+        -
+        
