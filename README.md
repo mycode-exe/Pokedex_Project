@@ -1,1 +1,1 @@
-To experiment and learn the 'tkinter' module, I decided to create the Pokedex from the Pokemon TV series, with a working search function and display the results of said search. **W.I.P**
+An expriment I wanted to try after hearing the idea on a Python related podcast. A useful way of experimenting with the 'tkinter' module to create the Pokedex style GUI for the program, as well as some likely interesting practice with classes & objects.
