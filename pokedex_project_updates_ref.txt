@@ -9,4 +9,10 @@ Update Notes (taken from notes section at bottom of code):
         - Assigned the pre-evolutions & evolutions as strings then retroactively assigned the relevant variables, so Pokemon are connected
         - Created the folder to store images for later use with the 'tkinter' module. For now, they are stored as '...' within the instances of the class. Added image folder to 'gitignore'
         - Figured out how to change a Pokemon's class' attribute to be another variable (change the Ivysaur 'evolution' data from the string "venusaur" to the actual variable of venusaur), but I want the program to do the checks for me, to save on code lines changing them all manually.
+    
+    (v0.1.2):
+        - Decided that I will need to allow each instance of the class to be created first, then circle the code back to tie up pre-evolutions/evolutions.
+        - Added "# region Data" to tidy Pokemon database 
+        - Decided to adjust the objects attributes manually, as after many hours of googling and trying to find a solution, I can't find one. And StackOverflow wasn't any help either. With my question posted just being met with "this doesn't make sense".
+        - Before continuing with this project, I need to spend some serious time learning as much as I can about classes and related topics that might help me get my head around this, before moving onto the 'tkinter' aspect of the project
         
