@@ -6,7 +6,7 @@ Update Notes (taken from notes section at bottom of code):
         - E.g. - Listing "Ivysaur" in the "Bulbasaur" object's instance, as it does not exist when the bulbasaur object is created/ran. Will need to address this
 
     (v0.1.1);
-        - TBW
-        -
-        -
+        - Assigned the pre-evolutions & evolutions as strings then retroactively assigned the relevant variables, so Pokemon are connected
+        - Created the folder to store images for later use with the 'tkinter' module. For now, they are stored as '...' within the instances of the class. Added image folder to 'gitignore'
+        - Figured out how to change a Pokemon's class' attribute to be another variable (change the Ivysaur 'evolution' data from the string "venusaur" to the actual variable of venusaur), but I want the program to do the checks for me, to save on code lines changing them all manually.
         
