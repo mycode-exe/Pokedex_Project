@@ -12,7 +12,13 @@ Update Notes (taken from notes section at bottom of code):
     
     (v0.1.2):
         - Decided that I will need to allow each instance of the class to be created first, then circle the code back to tie up pre-evolutions/evolutions.
-        - Added "# region Data" to tidy Pokemon database 
+        - Added "# region Data" to tidy Pokemon database.
         - Decided to adjust the objects attributes manually, as after many hours of googling and trying to find a solution, I can't find one. And StackOverflow wasn't any help either. With my question posted just being met with "this doesn't make sense".
-        - Before continuing with this project, I need to spend some serious time learning as much as I can about classes and related topics that might help me get my head around this, before moving onto the 'tkinter' aspect of the project
+        - Before continuing with this project, I need to spend some serious time learning as much as I can about classes and related topics that might help me get my head around this, before moving onto the 'tkinter' aspect of the project.
+    
+    (v0.1.3):
+        - Figured out how to iterate over the dictionary and print out the necessary parts of the Pokemon class' objects that I'm looking to edit in the future. Now just to learn how to adjust those variables.
+        - Changed the dictionary to store the pokemon by their names as their key, to mean that the loop to update evolutions *finally* works.
+        - Also added a list for me to see which Pokemon were updated, and see if any obvious misses were made.
+        - Learn that '__str__' and '__repr__' are useful tools when building a class, with 'str' being more useful for user, and 'repr' useful for developer. Added 'repr' method to display variable's instance rather than memory address for better clarity while I create the program.
         
