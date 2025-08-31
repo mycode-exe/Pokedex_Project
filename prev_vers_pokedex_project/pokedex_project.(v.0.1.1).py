@@ -68,7 +68,6 @@ class Pokemon:
         ...
 
 
-# region Data
 # Pokemon "database" 
 
 bulbasaur = Pokemon("Bulbasaur", "0001", 0.7, 6.9, "Seed", "Overgrow", "Grass"+"Poison", "Fire"+"Ice"+"Flying"+"Psychic", None, "ivysaur", ...)
@@ -80,7 +79,6 @@ charizard = Pokemon("Charizard", "0006", 1.7, 90.5, "Lizard", "Blaze", "Fire", "
 squirtle = Pokemon("Squirtle", "0007", 0.5, 9.0, "Tiny Turtle", "Torrent", "Water", "Grass"+"Electric", None, "wartortle", ...)
 wartortle = Pokemon("Wartortle", "0008", 1.7, 90.5, "Lizard", "Blaze", "Fire", "Water"+"Ground"+"Rock", squirtle, "blastoise", ...)
 blastoise = Pokemon("Blastoise", "0009", 1.7, 90.5, "Lizard", "Blaze", "Fire", "Water"+"Ground"+"Rock", "wartortle", None, ...) 
-#endregion
 
 # Blank Pokedex Entry
 # = Pokemon("", "00", ., ., "", "", "", "", False, False)
@@ -106,9 +104,9 @@ print(f"Ivysaur's evolution is {ivysaur.evolution.name}, and it's pre-evolution 
 
 """
     Update Message/Notes (v0.1.1):
-        - Decided that I will need to allow each instance of the class to be created first, then circle the code back to tie up pre-evolutions/evolutions.
-        - Added "# region Data" to tidy Pokemon database 
-        - 
+        - Assigned the pre-evolutions & evolutions as strings then retroactively assigned the relevant variables, so Pokemon are connected
+        - Created the folder to store images for later use with the 'tkinter' module. For now, they are stored as '...' within the instances of the class. Added image folder to 'gitignore'
+        - Figured out how to change a Pokemon's class' attribute to be another variable (change the Ivysaur 'evolution' data from the string "venusaur" to the actual variable of venusaur), but I want the program to do the checks for me, to save on code lines changing them all manually.
 
 """  
 
